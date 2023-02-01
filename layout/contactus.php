@@ -1,5 +1,5 @@
 <?php
-$title = "Contact Us";
+$title = "Contact Us - Matt Flores";
 include "header.php" ?>
 
 <h2>Contact Us</h2>
