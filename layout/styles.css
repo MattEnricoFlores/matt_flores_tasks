@@ -139,6 +139,7 @@ body {
 	max-width: 2300px; 
 	margin: 0 auto !important; 
 	float: none !important; 
+  color: #C5C6C7;
 }
 p {
   color: #C5C6C7;
@@ -146,6 +147,10 @@ p {
 
 .navbar-nav {
   text-align: right;
+}
+
+echo {
+  color: #C5C6C7 !important;
 }
 
 body {
