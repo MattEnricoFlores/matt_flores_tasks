@@ -2,6 +2,8 @@
 $title = "Exercise 1";
 include "header.php" ?>
 
+
+
 <h3>3.1 Write a simple PHP script to print your information (Name and your groupid).</h3>
 
 <?php
@@ -20,6 +22,15 @@ echo "Hello world! My name is \"David\"";
 <?php
 echo date("d.m.Y");
 ?>
+
+<h3>3.4 $title = "PHP is interesting”. Put this variable as a title marked as h1 (heading 1) in your HTML document.</h3>
+
+<?php $title1 = "PHP is interesting";
+echo "<h1>" . $title1 . "</h1>";
+?>
+
+
+
 
 <?php include "footer.php" ?>
 
