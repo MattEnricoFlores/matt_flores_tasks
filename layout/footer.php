@@ -30,6 +30,14 @@
       © 2023 Copyright: Team 1
     </div>
     <!-- Copyright -->
+
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      <?php
+      if (file_exists($filename)) {
+          echo "This was last modified: " . date ("l, F d Y H:i:s.", filemtime($filename));
+      }
+      ?>
+    </div>
   </footer>
 
 </html>

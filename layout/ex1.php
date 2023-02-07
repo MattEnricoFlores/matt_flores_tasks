@@ -1,5 +1,6 @@
 <?php
 $title = "Exercise 1";
+$filename = 'ex1.php';
 include "header.php" ?>
 
 

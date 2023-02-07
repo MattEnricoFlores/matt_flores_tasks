@@ -46,7 +46,11 @@
                             style="margin-right: 10px;">Exercise 1</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="aboutUs.html" style="margin-right: 10px; color: white">About
+                        <a class="nav-link active" aria-current="page" href="variable.php"
+                            style="margin-right: 10px;">Exercise 3</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.php" style="margin-right: 10px; color: white">About
                             us</a>
                     </li>
 

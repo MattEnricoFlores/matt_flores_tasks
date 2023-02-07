@@ -1,5 +1,6 @@
 <?php
 $title = "Home Page";
+$filename = 'index.php';
 include "header.php" ?>
 
 <h1>Some Content</h1>

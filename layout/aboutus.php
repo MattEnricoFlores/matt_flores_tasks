@@ -1,5 +1,6 @@
 <?php
 $title = "About Us: Matt Flores";
+$filename = 'aboutus.php';
 include "header.php" ?>
 
 <h2>About Us</h2>
