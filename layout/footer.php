@@ -33,9 +33,9 @@
 
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
       <?php
-      if (file_exists($filename)) {
-          echo "This was last modified: " . date ("l, F d Y H:i:s.", filemtime($filename));
-      }
+      $filename = basename($_SERVER['PHP_SELF']);
+      $lastmodified = filemtime($filename);
+      echo "This was last modified: " . date ('l jS \o\f F Y, h:i:s A', $lastmodified);
       ?>
     </div>
   </footer>

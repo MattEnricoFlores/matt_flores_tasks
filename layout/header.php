@@ -50,6 +50,10 @@
                             style="margin-right: 10px;">Exercise 3</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="controlflow.php"
+                            style="margin-right: 10px;">Exercise 4</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="aboutus.php" style="margin-right: 10px; color: white">About
                             us</a>
                     </li>
