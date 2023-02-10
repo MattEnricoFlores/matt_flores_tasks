@@ -28,7 +28,7 @@
   <div id="navbar">
     <nav class="navbar navbar-expand-lg ">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.php"> <img src="pic/logoFinal.png"  alt=""
+            <a class="navbar-brand" href="../layout/index.php"> <img src="pic/logoFinal.png"  alt=""
                     width="80" height="80">LOGO</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -38,24 +38,28 @@
             <div class="collapse navbar-collapse" id="navbarScroll">
                 <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 75vh;">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.php"
+                        <a class="nav-link active" aria-current="page" href="../layout/index.php"
                             style="margin-right: 10px;">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="ex1.php"
+                        <a class="nav-link active" aria-current="page" href="../layout/ex1.php"
                             style="margin-right: 10px;">Exercise 1</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="variable.php"
+                        <a class="nav-link active" aria-current="page" href="../layout/variable.php"
                             style="margin-right: 10px;">Exercise 3</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="controlflow.php"
+                        <a class="nav-link active" aria-current="page" href="../layout/controlflow.php"
                             style="margin-right: 10px;">Exercise 4</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="array.php"
+                        <a class="nav-link active" aria-current="page" href="../layout/array.php"
                             style="margin-right: 10px;">Exercise 5</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../crud/create.php"
+                            style="margin-right: 10px;">Simple CRUD App</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="aboutus.php" style="margin-right: 10px; color: white">About
