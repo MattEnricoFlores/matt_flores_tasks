@@ -62,6 +62,10 @@
                             style="margin-right: 10px;">Simple CRUD App</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../crud/read.php"
+                            style="margin-right: 10px;">Reading Data</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="aboutus.php" style="margin-right: 10px; color: white">About
                             us</a>
                     </li>
