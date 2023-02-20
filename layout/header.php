@@ -22,7 +22,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
   <!-- MDB -->
   <link rel="stylesheet" href="css/mdb.min.css" />
-  <script src="../layout/site.js"> </script>
+  <script src="../layout/js/site.js"> </script>
 </head>
 
 <body style = "background-color: #0b0c10;">

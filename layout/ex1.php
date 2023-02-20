@@ -25,13 +25,13 @@ echo date("d.m.Y");
 ?>
 
 <script>
-
 document.write("Hello world javascript test");
-
 </script>
 <noscript>
     Please enable javascript to view this content,
 </noscript>
+
+<input type="button" onclick="hello()" value="Click Me"></input>
 
 <h3>3.4 $title = "PHP is interesting”. Put this variable as a title marked as h1 (heading 1) in your HTML document.</h3>
 
@@ -39,8 +39,18 @@ document.write("Hello world javascript test");
 echo "<h1>" . $title1 . "</h1>";
 ?>
 
+<script>
+// window.alert("This will trigger an alert box");
+// window.alert(5+10);
+document.write("Hello this is a test");
+</script>
 <h3>3.5 Tables and Variables</h3>
-
+<input type="button" onclick="add()" value="add"></input>
+<hr>
+<p id="place1" style="color:white; background-color:black;"></p>
+<script>
+document.getElementById("place1").innerHTML = "This will go to place1"
+</script>
 <?php
 $g1 = 5;
 $g2 = 4;
@@ -66,6 +76,16 @@ echo "
 <h3>4 Screenshot of DevEnv</h3>
 
 <img src="DevEnv.png">
+
+<h2>Changing Background Color</h2>
+
+<form>
+
+<input type="color" name="background" onchange="changeColor('background' ,this.value)">
+
+</form>
+
+
 
 <?php include "footer.php" ?>
 
