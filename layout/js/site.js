@@ -8,8 +8,14 @@ function add(){
 }
 
 // Function to change bg color
-function changeColor(where,newColor){
-if (where == "background"){
-    document.body.style.backgroundColor = newColor;
+function changeColor(){
+let color = document.getElementById('background').value;
+document.body.style.backgroundColor = color;
 }
-}
+
+// Function to change font color
+function changefontColor(){
+    let color = document.getElementById('fcolor').value;
+    document.body.style.color = fcolor;
+    }
+
